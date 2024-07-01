@@ -1,0 +1,6 @@
+insert into orders(order_id, order_date, client_full_name, client_contact_number, shipment_address, order_status, shipment_delivary_date) values(1, DATE '11-11-2020', 'Сергей Иванов', '(981)123-45-67', 'ул. Веденеева 20-1-41', 'S', '11-29-2020')
+insert into orders(order_id, order_date, client_full_name, client_contact_number, shipment_address, order_status, shipment_delivary_date) values(2, '11-22-2020', 'Алексей Комаров', '(921)001-22-33', 'пр. Пархоменко 51-2-123', 'S', '11-11-2020')
+insert into orders(order_id, order_date, client_full_name, client_contact_number, shipment_address, order_status)values(3,'11-28-2020', 'Ирина Викторова', '(911)009-88-77', 'Тихорецкий пр. 21-21', 'P')	
+insert into orders(order_id, order_date, client_full_name, client_email, shipment_address, order_status) values(4,'12-03-2020', 'Павел Николаев', 'pasha_nick@mail.ru','ул. Хлопина 3-88', 'P');
+insert into orders(order_id, order_date, client_full_name, client_contact_number, client_email, shipment_address, order_status) values(5,'12-03-2020', 'Антонина Васильева', '(931)777-66-55','antvas66@gmail.com','пр. Науки, 11-3-9', 'P');
+insert into orders(order_id, order_date, client_full_name, client_contact_number, shipment_address, order_status) values(6,'10-12-2020', 'Ирина Викторова', '(911)009-88-77','Тихорецкий пр. 21-21', 'P')
